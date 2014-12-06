@@ -1,0 +1,123 @@
+/**********************************/
+/********* General Rule ***********/
+/**********************************/
+*{
+	margin:0;
+	padding:0;
+}
+@font-face{
+	font-family: portHeadFont;
+	src: url(fonts/museo.otf);
+}
+@font-face{
+	font-family: portSubFont;
+	src: url(fonts/Lobster.ttf);
+}
+
+/**********************************/
+/********** Header Rule ***********/
+/**********************************/
+#headTop{
+	height:auto;
+	width:100%;
+	background-color:#242424;
+}
+h2{
+	font-family:portHeadFont;
+	color:#ffffff;
+	font-size: 30pt;
+	text-align:center;
+}
+.c1{
+	color:#ff5736;
+}
+.c2{
+	color:#10dfac;
+}
+.c3{
+	color:#a17cff;
+}
+p.tagline{
+	font-family:portSubFont;
+	color:#ffffff;
+	font-size: 24pt;
+	text-align:center;
+}
+#tagIcon{
+	margin:0 10px 0 20px;
+}
+#tagIcon1{
+	margin:0 10px 0 0;
+}
+#title{
+	text-decoration:none;
+}
+
+/**********************************/
+/********* Hero Unit Rule *********/
+/**********************************/
+
+#heroUnit{
+	background:url(img/heroUnit.jpg) center;
+	height:auto;
+	background-size:cover;
+	width:100%;
+}
+.faceLock{
+	display:flex;
+	margin:0 auto;
+	/*align-items:center;
+	justify-content:center;*/
+}
+.faceImg{
+	display:block;
+	margin:0 auto;
+	margin-top:100px;
+}
+nav{
+	display:flex;
+	justify-content:center;
+}
+ul li{
+	display:inline-block;
+	list-style:none;
+	margin:50px;
+}
+ul li a{
+	text-align:center;
+	text-decoration:none;
+	display:block;
+	color:rgba(245, 246, 247, 0.47);
+	font-size:30pt;
+	font-family:portSubFont;
+}
+ul li a:hover{
+	color:#ffffff;
+}
+
+/**********************************/
+/******* Section About Rule *******/
+/**********************************/
+#about{
+	background:url(img/aboutBackground.jpg) center;
+	height:670px;
+	background:cover;
+	width:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
